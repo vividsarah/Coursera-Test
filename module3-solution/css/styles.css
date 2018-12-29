@@ -1,0 +1,79 @@
+/**
+* My Week 3 Solution
+**/
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #d3d3d3;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #dcdcdc;
+  background-color: purple;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+ }
+
+ #nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  background-color: lightblue;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+/* END HEADER */
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.75em;
+}
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+section {
+  background-color: purple;
+  padding: 5px 20px;
+  margin: 10px;
+}
